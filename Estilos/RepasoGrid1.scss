@@ -44,9 +44,15 @@
     }
     .imagenlateral{
         @include adaptarimagen();
+        height:85%;
     }
     .imagenpie{
         @include adaptarimagen();
+    }
+    .imagenenlace{
+        @include adaptarimagen();
+        height:15%;
+
     }
 }
 
